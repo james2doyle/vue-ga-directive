@@ -2,9 +2,13 @@
 
 A directive for accessing the Google Analytics window.ga object by using attributes.
 
+### Install
+
+Available through npm as `vue-ga-directive`. Or include as an inline script, like in `example.html`.
+
 ### Demo
 
-You can load up the `index.html` file here to test the directive.
+You can load up the `example.html` file here to test the directive.
 
 ### Usage
 

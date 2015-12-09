@@ -26,7 +26,20 @@
     <button type="button" v-ga-event:mouseout="My Custom Label" v-ga-value="99" v-ga-callback="logGaEvent">Fire Mouseout Event</button>
   </div>
   <script src="http://cdn.jsdelivr.net/vue/1.0.10/vue.min.js"></script>
-  <script src="js/vue-ga-directive.js"></script>
-  <script src="js/main.js"></script>
+  <script src="vue-ga-directive.js"></script>
+  <script>
+    /* globals Vue */
+    var App = new Vue({
+      el: '#app',
+      data: {
+        loggedEvent: ''
+      },
+      methods: {
+        logGaEvent: function(el) {
+          this.loggedEvent = el.innerText;
+        }
+      }
+    });
+  </script>
 </body>
 </html>

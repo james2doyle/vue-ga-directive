@@ -1,6 +1,6 @@
 {
   "name": "vue-ga-directive",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A directive for accessing the Google Analytics window.ga object by using attributes.",
   "homepage": "http://ohdoylerules.com",
   "repository": "https://github.com/james2doyle/vue-ga-directive",
@@ -9,6 +9,7 @@
     "email": "james2doyle@gmail.com",
     "url": "http://ohdoylerules.com/"
   },
+  "main": "vue-ga-directive.js",
   "licenses": [{
     "type": "MIT",
     "url": "http://opensource.org/licenses/MIT"
